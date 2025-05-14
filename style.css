@@ -48,6 +48,13 @@ body {
   font-size: var(--font-size-base);
   color: var(--black);
   background-color: #f7f6f6;
+
+  margin: 5rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
