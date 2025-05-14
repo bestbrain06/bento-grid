@@ -6,7 +6,7 @@
 
 ### Screenshot
 
-![](assets\images\Screenshot 2025-05-13 at 10-52-48 Frontend Mentor Blog preview card.png)
+![](assets\images\Screenshot 2025-05-14 at 16-56-29 Frontend Mentor Bento grid.png)
 
 ## My process
 
@@ -15,30 +15,33 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS grid
 
 ### What I learned
 
-I learnt how to center an entire page with a container div.
-I also learnt how to center the card using css margin.
-I also learnt how to use the box shadow
+I learnt how to use grid-column to move the element around
+I learnt how to use grid-roww to span more than 1 row
 
 ```html
-<div class="container">
+<div class="grid-container">
   <!-- Rest of HTML Code -->
 </div>
 ```
 
 ```css
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  width: 95%;
+.grid-container {
+  display: grid;
+  grid-template-column: repeat(4, 1fr);
+}
+
+.card-1 {
+  grid-column: 2/4;
 }
 ```
 
 ### Continued development
 
-I will continue learning more on layouts. The next point of focus is learning about CSS Grid
+I will continue learning more on layouts. I will strive to become better using grid
 
 ## Author
 
